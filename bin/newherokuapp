@@ -17,3 +17,4 @@ heroku addons:create heroku-redis:hobby-dev || die "Exiting."
 heroku config:set DEFAULT_FILE_STORAGE=django.core.files.storage.FileSystemStorage
 heroku config:set SECRET_KEY="$RANDOM.$RANDOM.$RANDOM.$RANDOM"
 heroku config:set SITE_URL=https://$APPNAME.herokuapp.com
+heroku git:remote -a $APPNAME

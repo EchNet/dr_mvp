@@ -43,7 +43,7 @@ See the Makefile.
 ## First Deploy to Heroku
 
 * Run the `bin/newherokuapp` script to create the Heroku application.
-* Create the remote and push.
+* Push: `git push heroku master`
 
 ## Add Facebook login.
 
