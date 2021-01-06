@@ -28,7 +28,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cookies-js": "^1.2.3",
     "eventemitter3": "^4.0.4",
     "react": "^16.13.1",
