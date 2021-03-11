@@ -53,4 +53,8 @@ See the Makefile.
 * In Facebook Developers: Add product Facebook Login to app.
 * In Facebook Developers: Add https://domain.name/complete/facebook/ to Valid OAuth Redirect URIs.
 
-Procedure for adding Google OAuth login is similar.
+## Add Google OAuth login. 
+
+* In Google Cloud Console, create a project then go to APIs & Services .. Credentials.
+* Create an OAuth Client ID and download the credentials JSON file.
+* In Heroku: set env var SOCIAL_AUTH_GOOGLE_OAUTH2_KEY to App ID and SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET to App Secret.
